@@ -9,7 +9,7 @@ from kivy.uix.button import Label
 class HelloKivy(App):
 
     def build(self):
-        return label(text="Hello Kivy")
+        return Label(text="Hello Kivy")
 
 helloKivy = HelloKivy()
 
