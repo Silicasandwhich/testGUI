@@ -2,15 +2,15 @@
 import kivy
 kivy.require('1.9.0')
 from kivy.app import App
-from kivy.uix.floatlayout import FloatLayout
+from kivy.uix.gridlayout import GridLayout
 
 #app class
 
-class FloatingApp(App):
+class GridLayoutApp(App):
 
     def build(self):
-        return FloatLayout()
+        return GridLayout()
 
-flApp = FloatingApp()
+glApp = GridLayoutApp()
 
-flApp.run()
+glApp.run()
