@@ -6,11 +6,11 @@ from kivy.uix.button import Label
 
 #app class
 
-class HelloKivy(App):
+class HelloKivyApp(App):
 
     def build(self):
-        return Label(text="Hello Kivy")
+        return Label()
 
-helloKivy = HelloKivy()
+helloKivy = HelloKivyApp()
 
 helloKivy.run()
