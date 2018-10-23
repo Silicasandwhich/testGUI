@@ -9,7 +9,7 @@ from kivy.uix.floatlayout import FloatLayout
 class FloatingApp(App):
 
     def build(self):
-        return FLoatLayout()
+        return FloatLayout()
 
 flApp = FloatingApp()
 
