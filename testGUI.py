@@ -2,15 +2,14 @@
 import kivy
 kivy.require('1.9.0')
 from kivy.app import App
-from kivy.uix.button import Label
+from kivy.uix.widget import Widget
 
-#app class
-
-class HelloKivyApp(App):
+class CustomWidget(Widget):
+    pass
+class CustomWidgetApp(App):
 
     def build(self):
-        return Label()
+        return CustomWidget()
 
-helloKivy = HelloKivyApp()
-
-helloKivy.run()
+customWidget = CustomWidgetApp()
+customWidget.run()
