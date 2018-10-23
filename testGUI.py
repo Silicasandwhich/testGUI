@@ -2,15 +2,15 @@
 import kivy
 kivy.require('1.9.0')
 from kivy.app import App
-from kivy.uix.stacklayout import StackLayout
+from kivy.uix.pagelayout import PageLayout
 
 #app class
 
-class StackLayoutApp(App):
+class PageLayoutApp(App):
 
     def build(self):
-        return StackLayout()
+        return PageLayout()
 
-slApp = StackLayoutApp()
+plApp = PageLayoutApp()
 
-slApp.run()
+plApp.run()
